@@ -1,0 +1,334 @@
+<!DOCTYPE html>     <!----- definición de html 5 -->          
+<html lang="es"> 	<!----- definición del lenguaje -->  
+					<!------Inicio del  HEAD -->
+<head>
+  <title>Estancia Las Hojas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+	<!----- icono para apple y safari --> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- tipo de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+<!-- Header -->
+<nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand h1" href="index.html">	
+            <i class='bx bxs-spa bx-sm text-success'></i>
+            <span class="text-dark h4">Estancia</span><span class="text-primary h4"> Las Hojas</span>
+        </a>
+        <button class="navbar-toggler border-0"  type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+            <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-primary rounded-pill px-3" href="hotel.html">Hotel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-primary rounded-pill px-3" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar align-self-center d-flex">
+                <a class="nav-link" href="#" title="Reservar"><i class='bx bx-bed bx-sm bx-burst-hover text-primary'></i></a>
+                <a class="nav-link" href="#" title="Menú del día"><i class='bx bx-restaurant bx-sm bx-burst-hover text-primary'></i></a>
+                <a class="nav-link" href="https://www.whatsapp.com/"><i class='bx bxl-whatsapp bx-sm bx-burst-hover text-primary'></i></a>
+    
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 text-primary typo-space-line">Familia Viñas</h1>
+                    <p class="light-300">
+                        Durante 81 años la finca Las Hojas ha desarrollado actividades vitivinícolas, lanzando al mercado uno de los vinos torrontés más conocidos mundialmente, <b>Don León</b>. El cuál lleva el nombre de <b>su fundador, nuestro abuelo</b>. <br>En el 2000, deseamos compartir la experiencia de vivir en un lugar tan hermoso y sumergir a sus visitantes en el folklore norteño, realizando actividades rodeados de naturaleza y presentándoles una gran variedad de sabores autóctonos. De esta forma, nació el hotel y los productos artesanales Las Hojas. 
+                        <br><b>Los invitamos a vivir una experiencia bien norteña</b>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100"   src="./assets/img/banner-img-01.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Team Member -->
+    <section class="container py-md-5">
+        <div class="pb-5 d-lg-flex align-items-center gx-5 gx-md-0">
+
+            <div class="col-lg-3 m-3">
+                <h2 class="h2 py-5 typo-space-line">Nuestro Equipo, Nuestra Familia</h2>
+                <p class="text-muted light-300">
+                    Somos tres hermanos, cada uno responsable de un sector, con un legado familiar que empezó con nuestro abuelo <b>León Viñas</b>.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li><b>Sofia Viñas</b></li>
+                        <li>Gerente general<br>Hotel Las Hojas</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li><b>Felipe Viñas</b></li>
+                        <li>Chief Winemaker</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li><b>Roberto Viñas</b></li>
+                        <li>Supervisor<br>de productos artesanales</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+   
+
+    <!-- Start Choice -->
+    <section class="banner-bg bg-light p-5 px-3 ">
+           <div class="banner-content col-lg-7 mx-auto text-center py-5">
+                    <h2 class="h2 pb-3">Don León Viñas</h2>
+                    <p class="text-muted light-300">Desde pequeño León Viñas demostró verdadera vocación por la agricultura. Criado en un campo de porotos en Tucumán, ayudaba a sus abuelos a sembrar y cosechar. A los 18 años se mudó a Salta y comenzó a trabajar en diferentes viñedos hasta que logró comprar su primera parcela de tierra. En 1939 comenzó con su viñedo. Luego de 80 años, la estancia cuenta con 70 hectáreas y  la bodega Las Hojas se ha posicionado entre las mejores del mercado nacional e internacional.
+                    </p>
+ 
+        </div>
+    </section>
+    <!-- End Choice -->
+
+    <!-- Start Aim -->
+    <section class="banner-bg bg-white py-5">
+        <div class="container my-4">
+            <div class="row text-center">
+
+                <div class="objective col-lg-4">
+                    <div class="objective-icon card m-auto py-4 mb-4 mb-sm-4 bg-secondary shadow-lg">
+                        <i class="display-4 bx bx-bed text-light"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Hotel</h2>
+                    <p class="light-300">
+                        Una experiencia única, rodeados de naturaleza y con sabor gourmet.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-4 mb-sm-4 bg-secondary shadow-lg">
+                        <i class='display-4 bx bx-wine text-light'></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Bodega</h2>
+                    <p class="light-300">
+                        81 años de experiencia en la elaboración de vinos. Conocé nuestro torrontés galardonado, Don León.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-4 mb-sm-4 bg-secondary shadow-lg">
+                        <i class="display-4 bx bx-store text-light"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Productos artesanales</h2>
+                    <p class="light-300">
+                        Delicias para el paladar, elaboradas con productos regionales de primera calidad.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Aim -->
+
+    <!-- Start Contact -->
+    <section class="banner-bg bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-center">Suscribite a nuestras novedades</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                        <button class="btn btn-secondary text-white btn-lg rounded-pill rounded-start px-lg-4" type="submit">Suscribirme</button>
+                    </div>
+                    <p class="text-center light-300">Recibí noticias, descuentos y promociones sobre vinos, alojamiento y delicias artesanales</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class='bx bx-spa bx-sm text-light'></i>
+                        <span class="text-light h5">Estancia</span><span class="text-light h5 semi-bold-600"> Las Hojas</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Los invitamos a descubrir un lugar único para estar en contacto con la naturaleza, a pocos minutos de la Ciudad de Salta.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp bx-sm'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.instagram.com/">
+                                <i class='bx bxl-instagram bx-sm'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook bx-sm'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin bx-sm'></i>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light">Nuestra Estancia</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light  light-300" 
+								href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+								href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+								href="hotel.html">Hotel</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1  light-300" 
+								href="productos.html">Productos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+								href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light">Productos Artesanales</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="#">Vinos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="#">Jaleas y Mermeladas</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="#">Quesos y Fiambres</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="#">Licores</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="#">Alfajores</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light">Comunicate con nosotros:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1  light-300" 
+							href="tel:010-020-0340">021-2354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1  light-300"
+							href="mailto:info@company.com">info@lashojas.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-primary py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 Estancia Las Hojas. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="#" target="_blank"><strong>Valeria Alvarez</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
